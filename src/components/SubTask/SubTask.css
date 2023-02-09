@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+.sub-task{
+    width: 320px;
+    border-radius: 5px;
+    border: 1px solid #e1e4e8;
+    background-color: #f7f8fe;
+    padding: 10px 20px;
+  }
+  
+  
+  .task-header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .task-title{
+    display: flex;
+  }
+  
+  .task-num{
+    text-align: center;
+    background-color: #5680f9;
+    color: #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
+  
+  .task-name{
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  
+  .task-btn{
+    padding: 5px 7px;
+    line-height: 20px;
+    background-color: #5680f9;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .task-btn:hover{
+    cursor: pointer;
+  }
+  
+  .task-btn i{
+    margin-right: 5px;
+  }
+
+
+
+  .task-content{
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: auto;
+    padding: 10px 4px;
+    cursor: grab;
+    margin: 10px 0;
+  }
+
+  .task-detail{
+    display: flex;
+    justify-content: space-between;
+  }
+  .task-detail p{
+    flex-grow: 1;
+  }
+
+  .task-detail i{
+    cursor: pointer;
+    margin: 0 3px;
+  }

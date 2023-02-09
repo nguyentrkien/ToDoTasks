@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.body{
+  font-family: Fira Sans,sans-serif;
+  width: 1170px;
+  margin: 30px auto 0;
+  overflow: auto;
+  padding: 0 50px;
+}
+
+.header{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 700;
+  color: #5680f9;
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+.add-task{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+  }
+
+.add-background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33,33,33,.3);
+}
+
+.add-box {
+  position: absolute;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 5px;
+  top: 30%;
+  width: 350px;
+  height: 200px;
+}
+
+.title{
+  font-weight: 700;
+  color: #5680f9;
+}
+
+.line{
+  background-color: rgba(33,33,33,.3);
+  width: 100%;
+  height: 1px;
+  margin-top: 5px;
+}
+
+.content{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-task input{
+  margin-right: 5px;
+}
+
+.task-description{
+  width: 100%;
+  height: 40px;
+  padding: 0 5px;
+}
+
+.add-submit{
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn{
+  margin: 0px 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
